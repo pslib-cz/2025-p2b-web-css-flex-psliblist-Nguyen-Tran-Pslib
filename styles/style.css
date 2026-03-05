@@ -93,13 +93,16 @@ body > .container {
 /* barvy kategorií reagují na modifikátory */
 
 .news-item--school {
-    color: var(--color-accent2);
+    --category-accent: var(--color-accent2);
+    --category-text: var(--color-accent2);
 }
 
 .news-item--engineering {
-    color: var(--color-accent3);
+    --category-accent: var(--color-accent3);
+    --category-text: var(--color-accent3);
 }
 
 .news-item--success {
-    color: var(--color-accent4);
+    --category-accent: var(--color-accent4);
+    --category-text: var(--color-accent4);
 }
